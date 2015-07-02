@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	"log"
 	"net"
 	"time"
@@ -26,12 +26,12 @@ func main() {
 		p, err := echoProtocol.ReadPacket(conn)
 		if err == nil {
 			echoPacket := p.(*echo.EchoPacket)
-			fmt.Printf("Server reply:[%v] [%v]\n", echoPacket.GetLength(), string(echoPacket.GetBody()))
+			log.Printf("Server reply:[%v] [%v]\n", echoPacket.GetLength(), string(echoPacket.GetBody()))
 		}
 
 		time.Sleep(2 * time.Second)
 	}
-
+	time.Sleep(120 * time.Second)
 	conn.Close()
 }
 
