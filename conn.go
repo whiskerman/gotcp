@@ -1,7 +1,9 @@
 package gotcp
 
 import (
+	"bufio"
 	"errors"
+	"log"
 	"net"
 	"sync"
 	"sync/atomic"
@@ -147,8 +149,49 @@ func (c *Conn) Do() {
 	}
 
 	go c.handleLoop()
-	go c.readLoop()
-	go c.writeLoop()
+	go c.readStickPackLoop()
+	//go c.readLoop()
+	go c.writeStickPacketLoop()
+}
+
+func (c *Conn) readStickPackLoop() {
+	c.srv.waitGroup.Add(1)
+	defer func() {
+		recover()
+		c.Close()
+		c.srv.waitGroup.Done()
+	}()
+
+	reader := bufio.NewReader(c.conn)
+	unCompleteBuffer := make([]byte, 0)
+	buffer := make([]byte, 1024)
+	for {
+
+		select {
+		case <-c.srv.exitChan:
+			return
+
+		case <-c.closeChan:
+			return
+
+		default:
+		}
+
+		n, err := reader.Read(buffer)
+		if err != nil {
+
+			return
+		}
+		if n == 1 && string(buffer[:1]) == "P" {
+
+		}
+		if n > 0 {
+			//fmt.Println("n is ========================================", n)
+			unCompleteBuffer = Unpack(append(unCompleteBuffer, buffer[:n]...), c.packetReceiveChan)
+
+		}
+
+	}
 }
 
 func (c *Conn) readLoop() {
@@ -196,7 +239,31 @@ func (c *Conn) writeLoop() {
 			return
 
 		case p := <-c.packetSendChan:
-			if _, err := c.conn.Write(p.Serialize()); err != nil {
+			if _, err := c.conn.Write(DoPacket(p.Serialize())); err != nil {
+				return
+			}
+		}
+	}
+}
+
+func (c *Conn) writeStickPacketLoop() {
+	c.srv.waitGroup.Add(1)
+	defer func() {
+		recover()
+		c.Close()
+		c.srv.waitGroup.Done()
+	}()
+
+	for {
+		select {
+		case <-c.srv.exitChan:
+			return
+
+		case <-c.closeChan:
+			return
+
+		case p := <-c.packetSendChan:
+			if _, err := c.conn.Write(DoPacket(p.Serialize())); err != nil {
 				return
 			}
 		}
@@ -220,6 +287,7 @@ func (c *Conn) handleLoop() {
 			return
 
 		case p := <-c.packetReceiveChan:
+			log.Println(p.Serialize())
 			if !c.srv.callback.OnMessage(c, p) {
 				return
 			}
