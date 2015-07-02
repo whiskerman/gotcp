@@ -9,36 +9,55 @@ import (
 	"time"
 )
 
+const (
+	clientscount = 30000
+)
+
 func main() {
 	tcpAddr, err := net.ResolveTCPAddr("tcp4", "127.0.0.1:8989")
 	checkError(err)
-	conn, err := net.DialTCP("tcp", nil, tcpAddr)
-	checkError(err)
-	readchan := make(chan gotcp.Packet)
+	conns := createclients(clientscount, tcpAddr)
 	//echoProtocol := nil
-	go readStickPackLoop(conn, readchan)
 
 	// ping <--> pong
-	for i := 0; i < 40000; i++ {
+	for i := 0; i < clientscount; i++ {
 		// write
 		outstr := gotcp.DoPacket([]byte("hello"))
 		log.Printf("out str is %s", outstr)
-		conn.Write(outstr)
+		conns[i].Write(outstr)
 
 		// read
 
 		//time.Sleep(2 * time.Second)
 	}
 
-	go func() {
-		p, ok := <-readchan //echoProtocol.ReadPacket(conn)
-		if ok {
-			streamPacket := p.(*gotcp.StreamPacket)
-			log.Printf("Server reply:[%v] [%v]\n", streamPacket.GetLength(), string(streamPacket.GetBody()))
-		}
-	}()
-	time.Sleep(120 * time.Second)
-	conn.Close()
+	time.Sleep(1200 * time.Second)
+	for i := 0; i < clientscount; i++ {
+		conns[i].Close()
+	}
+
+	log.Println("ending client.go")
+
+}
+
+func createclients(x int, addr *net.TCPAddr) []*net.TCPConn {
+	result := make([]*net.TCPConn, x)
+	for m := 0; m < x; m++ {
+		conn, err := net.DialTCP("tcp", nil, addr)
+		checkError(err)
+		readchan := make(chan gotcp.Packet)
+		go readStickPackLoop(conn, readchan)
+		result[m] = conn
+		go func(ch chan gotcp.Packet) {
+			p, ok := <-ch //echoProtocol.ReadPacket(conn)
+			if ok {
+				streamPacket := p.(*gotcp.StreamPacket)
+				log.Printf("Server reply:[%v] [%v]\n", streamPacket.GetLength(), string(streamPacket.GetBody()))
+			}
+		}(readchan)
+
+	}
+	return result
 }
 
 func readStickPackLoop(c *net.TCPConn, rchan chan gotcp.Packet) {

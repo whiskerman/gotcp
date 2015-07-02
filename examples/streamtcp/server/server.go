@@ -60,7 +60,8 @@ func main() {
 	// catchs system signal
 	chSig := make(chan os.Signal)
 	signal.Notify(chSig, syscall.SIGINT, syscall.SIGTERM, syscall.SIGUSR2) //, syscall.SIGINT, syscall.SIGTERM
-	l4g.Trace("Signal: %s", <-chSig)
+	sig := <-chSig
+	l4g.Trace("Signal: %s", sig)
 	//log.Println("Signal: ", <-chSig)
 
 	// stops service
