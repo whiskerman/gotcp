@@ -1,6 +1,7 @@
 package gotcp
 
 import (
+	l4g "code.google.com/p/log4go"
 	"net"
 	"sync"
 	"time"
@@ -50,6 +51,7 @@ func (s *Server) Start(listener *net.TCPListener, acceptTimeout time.Duration) {
 
 		conn, err := listener.AcceptTCP()
 		if err != nil {
+			l4g.INFO("listener accepttcp continue and found a error: %v", err)
 			continue
 		}
 

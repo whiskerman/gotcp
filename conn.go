@@ -147,7 +147,7 @@ func (c *Conn) Do() {
 	if !c.srv.callback.OnConnect(c) {
 		return
 	}
-
+	c.conn.SetDeadline(time.Now().Add(time.Second * 30))
 	go c.handleLoop()
 	go c.readStickPackLoop()
 	//go c.readLoop()
