@@ -50,9 +50,14 @@ func (s *Server) Start(listener *net.TCPListener, acceptTimeout time.Duration) {
 		listener.SetDeadline(time.Now().Add(acceptTimeout))
 
 		conn, err := listener.AcceptTCP()
-		if err != nil {
-			l4g.Info("listener accepttcp continue and found a error: %v", err)
+
+		if e, ok := err.(net.Error); ok && e.Timeout() {
 			continue
+			// This was a timeout
+		} else if err != nil {
+			l4g.Info("listener accepttcp continue and found a error: %v", err)
+			return
+			// This was an error, but not a timeout
 		}
 
 		go newConn(conn, s).Do()
