@@ -180,7 +180,7 @@ func (c *Conn) readStickPackLoop() {
 		c.conn.SetDeadline(time.Now().Add(time.Second * 30))
 		n, err := reader.Read(buffer)
 		if e, ok := err.(net.Error); ok && e.Timeout() {
-			l4g.Info("con read found a timeout error, i can do")
+			//l4g.Info("con read found a timeout error, i can do")
 			continue
 			// This was a timeout
 		}
