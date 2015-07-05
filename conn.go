@@ -2,6 +2,7 @@ package gotcp
 
 import (
 	"bufio"
+	l4g "code.google.com/p/log4go"
 	"errors"
 	"log"
 	"net"
@@ -179,7 +180,7 @@ func (c *Conn) readStickPackLoop() {
 
 		n, err := reader.Read(buffer)
 		if err != nil {
-
+			l4g.Info("con read found a error: %v", err)
 			return
 		}
 		if n == 1 && string(buffer[:1]) == "P" {
@@ -264,6 +265,7 @@ func (c *Conn) writeStickPacketLoop() {
 
 		case p := <-c.packetSendChan:
 			if _, err := c.conn.Write(DoPacket(p.Serialize())); err != nil {
+				l4g.Info("con write found a error: %v", err)
 				return
 			}
 		}

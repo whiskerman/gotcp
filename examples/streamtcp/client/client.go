@@ -2,19 +2,21 @@ package main
 
 import (
 	"bufio"
+	l4g "code.google.com/p/log4go"
 	//"fmt"
 	"github.com/whiskerman/gotcp"
+	"io"
 	"log"
 	"net"
 	"time"
 )
 
 const (
-	clientscount = 30000
+	clientscount = 40000
 )
 
 func main() {
-	tcpAddr, err := net.ResolveTCPAddr("tcp4", "127.0.0.1:8989")
+	tcpAddr, err := net.ResolveTCPAddr("tcp4", "192.168.246.135:8989")
 	checkError(err)
 	conns := createclients(clientscount, tcpAddr)
 	//echoProtocol := nil
@@ -83,11 +85,23 @@ func readStickPackLoop(c *net.TCPConn, rchan chan gotcp.Packet) {
 			default:
 			}
 		*/
+		c.SetDeadline(time.Now().Add(time.Second))
 		n, err := reader.Read(buffer)
-		if err != nil {
 
+		if e, ok := err.(net.Error); ok && e.Timeout() {
+			continue
+			// This was a timeout
+		} else if err != nil {
+			if err == io.EOF {
+				l4g.Info("client read a eof error: %v", err)
+			}
+
+			l4g.Info("client read a error: %v", err)
 			return
+			// This was an error, but not a timeout
+
 		}
+
 		if n == 1 && string(buffer[:1]) == "P" {
 
 		}

@@ -1,6 +1,6 @@
-<log created="2015/07/02 16:31:24 CST">
+<log created="2015/07/05 19:42:40 CST">
 	<record level="TRAC">
-		<timestamp>2015/07/02 16:36:24 CST</timestamp>
+		<timestamp>2015/07/05 19:58:03 CST</timestamp>
 		<source>main.main:64</source>
 		<message>Signal: interrupt</message>
 	</record>
