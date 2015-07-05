@@ -179,6 +179,11 @@ func (c *Conn) readStickPackLoop() {
 		}
 
 		n, err := reader.Read(buffer)
+		if e, ok := err.(net.Error); ok && e.Timeout() {
+			l4g.Info("con read found a timeout error, i can do")
+			continue
+			// This was a timeout
+		}
 		if err != nil {
 			l4g.Info("con read found a error: %v", err)
 			return
