@@ -148,7 +148,7 @@ func (c *Conn) Do() {
 	if !c.srv.callback.OnConnect(c) {
 		return
 	}
-	c.conn.SetDeadline(time.Now().Add(time.Second * 30))
+	//c.conn.SetDeadline(time.Now().Add(time.Second * 30))
 	go c.handleLoop()
 	go c.readStickPackLoop()
 	//go c.readLoop()
@@ -177,7 +177,7 @@ func (c *Conn) readStickPackLoop() {
 
 		default:
 		}
-
+		c.conn.SetDeadline(time.Now().Add(time.Second * 30))
 		n, err := reader.Read(buffer)
 		if e, ok := err.(net.Error); ok && e.Timeout() {
 			l4g.Info("con read found a timeout error, i can do")
@@ -221,6 +221,7 @@ func (c *Conn) readLoop() {
 
 		p, err := c.srv.protocol.ReadPacket(c.conn)
 		if err != nil {
+			l4g.Info("con ReadPacket found a error: %v", err)
 			return
 		}
 
@@ -246,6 +247,7 @@ func (c *Conn) writeLoop() {
 
 		case p := <-c.packetSendChan:
 			if _, err := c.conn.Write(DoPacket(p.Serialize())); err != nil {
+				l4g.Info("con write found a error: %v", err)
 				return
 			}
 		}
