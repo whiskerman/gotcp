@@ -16,7 +16,7 @@ const (
 )
 
 func main() {
-	tcpAddr, err := net.ResolveTCPAddr("tcp4", "192.168.246.135:8989")
+	tcpAddr, err := net.ResolveTCPAddr("tcp4", "192.168.122.132:8989")
 	checkError(err)
 	conns := createclients(clientscount, tcpAddr)
 	//echoProtocol := nil
