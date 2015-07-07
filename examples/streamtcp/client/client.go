@@ -16,7 +16,7 @@ const (
 )
 
 func main() {
-	tcpAddr, err := net.ResolveTCPAddr("tcp4", "192.168.1.107:8989")
+	tcpAddr, err := net.ResolveTCPAddr("tcp4", "192.168.122.132:8989")
 	checkError(err)
 	conns := createclients(clientscount, tcpAddr)
 	//echoProtocol := nil
@@ -34,7 +34,7 @@ func main() {
 		//time.Sleep(2 * time.Second)
 	}
 
-	time.Sleep(180 * time.Second)
+	time.Sleep(1200 * time.Second)
 	for i := 0; i < clientscount; i++ {
 		conns[i].Close()
 		log.Println("conn close :", i)
@@ -52,13 +52,13 @@ func createclients(x int, addr *net.TCPAddr) []*net.TCPConn {
 		readchan := make(chan gotcp.Packet)
 		go readStickPackLoop(conn, readchan)
 		result[m] = conn
-		go func(ch chan gotcp.Packet) {
+		go func(ch chan gotcp.Packet, con *net.TCPConn) {
 			p, ok := <-ch //echoProtocol.ReadPacket(conn)
 			if ok {
 				streamPacket := p.(*gotcp.StreamPacket)
-				log.Printf("Server reply:[%v] [%v]\n", streamPacket.GetLength(), string(streamPacket.GetBody()))
+				log.Printf("connection: %p Server reply:[%v] [%v]\n", conn, streamPacket.GetLength(), string(streamPacket.GetBody()))
 			}
-		}(readchan)
+		}(readchan, conn)
 
 	}
 	return result
@@ -105,6 +105,7 @@ func readStickPackLoop(c *net.TCPConn, rchan chan gotcp.Packet) {
 		}
 
 		if n == 1 && string(buffer[:1]) == "P" {
+			l4g.Debug("connection %p reciev ping", c)
 
 		}
 		if n > 0 {

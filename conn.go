@@ -181,6 +181,7 @@ func (c *Conn) readStickPackLoop() {
 		n, err := reader.Read(buffer)
 		if e, ok := err.(net.Error); ok && e.Timeout() {
 			//l4g.Info("con read found a timeout error, i can do")
+			c.packetSendChan <- NewStreamPacket([]byte("P"))
 			continue
 			// This was a timeout
 		}
@@ -272,7 +273,13 @@ func (c *Conn) writeStickPacketLoop() {
 
 		case p := <-c.packetSendChan:
 			c.conn.SetWriteDeadline(time.Now().Add(time.Second * 180))
-			_, err := c.conn.Write(DoPacket(p.Serialize()))
+			packetstr := p.Serialize()
+			if len(packetstr) == 1 {
+
+			} else {
+				packetstr = DoPacket(p.Serialize())
+			}
+			_, err := c.conn.Write(packetstr)
 			if e, ok := err.(net.Error); ok && e.Timeout() {
 				//l4g.Info("con read found a timeout error, i can do")
 				continue

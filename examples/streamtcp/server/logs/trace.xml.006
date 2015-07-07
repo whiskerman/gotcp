@@ -1,0 +1,1246 @@
+<log created="2015/07/07 12:06:51 CST">
+	<record level="INFO">
+		<timestamp>2015/07/07 12:06:59 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Server).Start:60</source>
+		<message>listener accepttcp continue and found a error: accept tcp [::]:8989: too many open files</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
+	<record level="INFO">
+		<timestamp>2015/07/07 12:07:07 CST</timestamp>
+		<source>github.com/whiskerman/gotcp.(*Conn).readStickPackLoop:188</source>
+		<message>con read found a error: EOF</message>
+	</record>
