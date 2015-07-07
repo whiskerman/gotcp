@@ -2,16 +2,17 @@ package main
 
 import (
 	//"fmt"
+	l4g "code.google.com/p/log4go"
+	"github.com/whiskerman/gotcp"
 	"log"
 	"net"
+	"net/http"
+	_ "net/http/pprof"
 	"os"
 	"os/signal"
 	"runtime"
 	"syscall"
 	"time"
-
-	l4g "code.google.com/p/log4go"
-	"github.com/whiskerman/gotcp"
 )
 
 type Callback struct{}
@@ -44,6 +45,12 @@ func main() {
 	checkError(err)
 	listener, err := net.ListenTCP("tcp", tcpAddr)
 	checkError(err)
+
+	go func() {
+		log.Println(http.ListenAndServe("192.168.122.132:6060", nil))
+
+	}()
+
 	defer l4g.Close()
 	// creates a server
 	config := &gotcp.Config{

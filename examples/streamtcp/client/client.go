@@ -26,6 +26,7 @@ func main() {
 		// write
 		outstr := gotcp.DoPacket([]byte("hello"))
 		log.Printf("out str is %s", outstr)
+		conns[i].SetWriteDeadline(time.Now().Add(time.Second * 30))
 		conns[i].Write(outstr)
 
 		// read
@@ -36,6 +37,7 @@ func main() {
 	time.Sleep(1200 * time.Second)
 	for i := 0; i < clientscount; i++ {
 		conns[i].Close()
+		log.Println("conn close :", i)
 	}
 
 	log.Println("ending client.go")
@@ -85,7 +87,7 @@ func readStickPackLoop(c *net.TCPConn, rchan chan gotcp.Packet) {
 			default:
 			}
 		*/
-		c.SetDeadline(time.Now().Add(time.Second))
+		c.SetReadDeadline(time.Now().Add(time.Second * 30))
 		n, err := reader.Read(buffer)
 
 		if e, ok := err.(net.Error); ok && e.Timeout() {
