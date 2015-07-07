@@ -54,8 +54,8 @@ func main() {
 	defer l4g.Close()
 	// creates a server
 	config := &gotcp.Config{
-		PacketSendChanLimit:    20000,
-		PacketReceiveChanLimit: 20000,
+		PacketSendChanLimit:    20,
+		PacketReceiveChanLimit: 20,
 	}
 	srv := gotcp.NewServer(config, &Callback{}, nil)
 
