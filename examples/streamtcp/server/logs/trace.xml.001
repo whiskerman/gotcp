@@ -1,6 +1,0 @@
-<log created="2015/07/02 15:11:24 CST">
-	<record level="TRAC">
-		<timestamp>2015/07/02 15:40:27 CST</timestamp>
-		<source>main.main:63</source>
-		<message>Signal: interrupt</message>
-	</record>
