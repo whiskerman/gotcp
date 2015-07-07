@@ -15,24 +15,35 @@ import (
 	"time"
 )
 
-type Callback struct{}
+type Callback struct {
+	cm *gotcp.ConnManager
+}
 
 func (this *Callback) OnConnect(c *gotcp.Conn) bool {
 	addr := c.GetRawConn().RemoteAddr()
-	c.PutExtraData(addr)
+	c.PutExtraData(addr.String())
+	//str := addr.String()
+	/* act on str */
+	this.cm.AddConn(addr.String(), c)
+
 	log.Println("OnConnect:", addr)
 	return true
 }
 
 func (this *Callback) OnMessage(c *gotcp.Conn, p gotcp.Packet) bool {
 	streamPacket := p.(*gotcp.StreamPacket)
-	log.Printf("OnMessage:[%v] [%v]\n", streamPacket.GetLength(), string(streamPacket.GetBody()))
-	c.AsyncWritePacket(gotcp.NewStreamPacket(streamPacket.Serialize()), time.Second)
+	log.Printf("from %p OnMessage:[%v] [%v]\n", c, streamPacket.GetLength(), string(streamPacket.GetBody()))
+	this.cm.Broadcast(gotcp.NewStreamPacket(streamPacket.Serialize()))
+	//c.AsyncWritePacket(gotcp.NewStreamPacket(streamPacket.Serialize()), time.Second)
 	return true
 }
 
 func (this *Callback) OnClose(c *gotcp.Conn) {
 	log.Println("OnClose:", c.GetExtraData())
+
+	addr := c.GetExtraData()
+	this.cm.DelConn(addr)
+
 }
 
 func main() {
@@ -47,7 +58,7 @@ func main() {
 	checkError(err)
 
 	go func() {
-		log.Println(http.ListenAndServe("192.168.122.132:6061", nil))
+		log.Println(http.ListenAndServe("192.168.1.107:6061", nil))
 
 	}()
 
@@ -57,7 +68,7 @@ func main() {
 		PacketSendChanLimit:    20,
 		PacketReceiveChanLimit: 20,
 	}
-	srv := gotcp.NewServer(config, &Callback{}, nil)
+	srv := gotcp.NewServer(config, &Callback{cm: gotcp.NewConnManager()}, nil)
 
 	// starts service
 	go srv.Start(listener, time.Second)

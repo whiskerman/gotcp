@@ -10,6 +10,8 @@ import (
 type Config struct {
 	PacketSendChanLimit    uint32 // the limit of packet send channel
 	PacketReceiveChanLimit uint32 // the limit of packet receive channel
+	ReadTimeOut            uint32
+	WriteTimeOut           uint32
 }
 
 type Server struct {

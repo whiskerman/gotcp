@@ -16,7 +16,7 @@ const (
 )
 
 func main() {
-	tcpAddr, err := net.ResolveTCPAddr("tcp4", "192.168.122.132:8989")
+	tcpAddr, err := net.ResolveTCPAddr("tcp4", "192.168.1.107:8989")
 	checkError(err)
 	conns := createclients(clientscount, tcpAddr)
 	//echoProtocol := nil
@@ -34,7 +34,7 @@ func main() {
 		//time.Sleep(2 * time.Second)
 	}
 
-	time.Sleep(1200 * time.Second)
+	time.Sleep(180 * time.Second)
 	for i := 0; i < clientscount; i++ {
 		conns[i].Close()
 		log.Println("conn close :", i)

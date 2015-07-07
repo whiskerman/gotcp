@@ -22,7 +22,7 @@ var (
 type Conn struct {
 	srv               *Server
 	conn              *net.TCPConn  // the raw connection
-	extraData         interface{}   // to save extra data
+	extraData         string        // to save extra data
 	closeOnce         sync.Once     // close the conn, once, per instance
 	closeFlag         int32         // close flag
 	closeChan         chan struct{} // close chanel
@@ -56,12 +56,12 @@ func newConn(conn *net.TCPConn, srv *Server) *Conn {
 }
 
 // GetExtraData gets the extra data from the Conn
-func (c *Conn) GetExtraData() interface{} {
+func (c *Conn) GetExtraData() string {
 	return c.extraData
 }
 
 // PutExtraData puts the extra data with the Conn
-func (c *Conn) PutExtraData(data interface{}) {
+func (c *Conn) PutExtraData(data string) {
 	c.extraData = data
 }
 
@@ -177,7 +177,7 @@ func (c *Conn) readStickPackLoop() {
 
 		default:
 		}
-		c.conn.SetReadDeadline(time.Now().Add(time.Second * 30))
+		c.conn.SetReadDeadline(time.Now().Add(time.Second * 180))
 		n, err := reader.Read(buffer)
 		if e, ok := err.(net.Error); ok && e.Timeout() {
 			//l4g.Info("con read found a timeout error, i can do")
@@ -271,7 +271,7 @@ func (c *Conn) writeStickPacketLoop() {
 			return
 
 		case p := <-c.packetSendChan:
-			c.conn.SetWriteDeadline(time.Now().Add(time.Second * 30))
+			c.conn.SetWriteDeadline(time.Now().Add(time.Second * 180))
 			_, err := c.conn.Write(DoPacket(p.Serialize()))
 			if e, ok := err.(net.Error); ok && e.Timeout() {
 				//l4g.Info("con read found a timeout error, i can do")
